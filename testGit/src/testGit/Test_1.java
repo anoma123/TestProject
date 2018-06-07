@@ -14,9 +14,11 @@ public class Test_1 {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\moon\\Downloads\\Chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
+		
+		System.out.println("Test.java runs");
 		//Actions a = new Actions(driver);
-		WebElement move= driver.findElement(By.id("twotabsearchtextbox"));
-	    move.sendKeys("Hello");
+		//WebElement move= driver.findElement(By.id("twotabsearchtextbox"));
+	    //move.sendKeys("Hello");
 		
 	}
 
