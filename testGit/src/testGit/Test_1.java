@@ -19,7 +19,7 @@ public class Test_1 {
 		driver.get("https://www.amazon.com/");
 		
 		System.out.println("Test.java runs");
-		Assert.assertEquals(driver.getTitle(), "amazone");
+		Assert.assertEquals(driver.getTitle(), "Amazone");
 		//Actions a = new Actions(driver);
 		//WebElement move= driver.findElement(By.id("twotabsearchtextbox"));
 	    //move.sendKeys("Hello");
