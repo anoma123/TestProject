@@ -35,7 +35,7 @@ public class Test_1 {
 	@Test
 	public void test2java()
 	{
-		System.out.println("Testjava 2 runs");
+	   Assert.assertTrue(false);
 	}
 	
 
